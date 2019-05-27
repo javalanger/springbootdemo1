@@ -17,5 +17,11 @@ public class HelloController {
         return "hello springboot!";
     }
 
+    @RequestMapping(value = "/testGit")
+    @ResponseBody
+    public String testGit(){
+        return "hello git!";
+    }
+
 
 }
